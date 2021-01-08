@@ -17,7 +17,7 @@ public class twoRectangle_3_28 {
 		double h2 = input.nextDouble();
 		double x3 = x1 - x2 >= 0 ? x1 - x2 : x2 - x1;
 	    double y3 = y1 - y2 >= 0 ? y1 - y2 : y2 - y1;
-//		if(x1-x2>=0) {
+		if(x1-x2>=0) {
 //			double x3 = x1 - x2;}
 //		else {
 //			double x3 = x2 - x1;} 
@@ -33,6 +33,6 @@ public class twoRectangle_3_28 {
 	    else
 	        System.out.println("r2 does not overlap r1");
 		
-		
+		}
 	}
 }
